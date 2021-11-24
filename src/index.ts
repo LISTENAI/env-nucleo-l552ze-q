@@ -1,9 +1,9 @@
 import { Bundle } from '@lisa-env/type';
-import gnu from '@binary/gnu-arm-embedded-toolchain';
+import gnu from '@binary/gcc-arm-none-eabi-10.3';
 
 export default <Bundle>{
   binaries: [
-    'gnu-arm-embedded-toolchain',
+    'gcc-arm-none-eabi-10.3',
   ],
   env: {
     ZEPHYR_TOOLCHAIN_VARIANT: 'gnuarmemb',
